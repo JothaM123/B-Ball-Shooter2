@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Shooter</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "p5.js"></script>
+    <script src = "p5.play.js"></script>
+    <script src = "p5.sound.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src = "https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src = "https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js""></script>
+    <script>
+  // Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAmUDkTPAtqAYEaoxMuqrbd6GOizJThCu4",
+  authDomain: "basketball-6af04.firebaseapp.com",
+  projectId: "basketball-6af04",
+  storageBucket: "basketball-6af04.appspot.com",
+  messagingSenderId: "900511666175",
+  appId: "1:900511666175:web:de22619a5416d62404e1ca"
+};
+
+  // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+</head>
+<body>
+    Use A and D to navigate
+    <script src="sketch.js"></script>
+    
+</body>
+</html>
